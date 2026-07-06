@@ -11,25 +11,25 @@ Command-line interface for [Voltage Park Harbor](https://voltagepark.com) — au
 **macOS (Apple Silicon):**
 
 ```bash
-curl -sSL https://github.com/voltagepark/harbor-cli/releases/latest/download/harbor-darwin-arm64 -o /usr/local/bin/harbor && chmod +x /usr/local/bin/harbor
+curl -fsSL https://github.com/voltagepark/harbor-cli/releases/latest/download/harbor-darwin-arm64 -o harbor && sudo install -m 755 harbor /usr/local/bin/harbor && rm harbor
 ```
 
 **macOS (Intel):**
 
 ```bash
-curl -sSL https://github.com/voltagepark/harbor-cli/releases/latest/download/harbor-darwin-amd64 -o /usr/local/bin/harbor && chmod +x /usr/local/bin/harbor
+curl -fsSL https://github.com/voltagepark/harbor-cli/releases/latest/download/harbor-darwin-amd64 -o harbor && sudo install -m 755 harbor /usr/local/bin/harbor && rm harbor
 ```
 
 **Linux (x86_64):**
 
 ```bash
-curl -sSL https://github.com/voltagepark/harbor-cli/releases/latest/download/harbor-linux-amd64 -o /usr/local/bin/harbor && chmod +x /usr/local/bin/harbor
+curl -fsSL https://github.com/voltagepark/harbor-cli/releases/latest/download/harbor-linux-amd64 -o harbor && sudo install -m 755 harbor /usr/local/bin/harbor && rm harbor
 ```
 
 **Linux (ARM64):**
 
 ```bash
-curl -sSL https://github.com/voltagepark/harbor-cli/releases/latest/download/harbor-linux-arm64 -o /usr/local/bin/harbor && chmod +x /usr/local/bin/harbor
+curl -fsSL https://github.com/voltagepark/harbor-cli/releases/latest/download/harbor-linux-arm64 -o harbor && sudo install -m 755 harbor /usr/local/bin/harbor && rm harbor
 ```
 
 **Windows (x86_64, PowerShell):**
