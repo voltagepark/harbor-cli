@@ -68,7 +68,6 @@ harbor auth status
 curl -H "Authorization: Bearer $(harbor auth token)" \
   https://api.sea1.voltagepark.com/v1/fleets
 ```
-```
 
 ## Commands
 
