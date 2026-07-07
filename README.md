@@ -51,13 +51,7 @@ curl.exe -sSL https://github.com/voltagepark/harbor-cli/releases/latest/download
 Confirm the binary runs and reports its version:
 ```bash
 harbor version
-```
-Optional checksum verification (each release ships a `checksums.txt`):
-```bash
-VERSION=$(harbor version)
-curl -sSL https://github.com/voltagepark/harbor-cli/releases/download/${VERSION}/checksums.txt \
-  | shasum -a 256 -c --ignore-missing
-```
+
 
 ## Quick start
 
