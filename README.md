@@ -230,4 +230,4 @@ Credentials live at `~/.harbor/credentials.json` (mode `0600`, directory `0700`)
 }
 ```
 
-Refresh tokens rotate on every use. Access tok
+Refresh tokens rotate on every use. Access tokens are silently refreshed within 5 minutes of expiry.
