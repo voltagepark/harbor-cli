@@ -56,7 +56,6 @@ harbor version
 ## Quick start
 
 ```bash
-```bash
 # 1. Log into production SEA-1 (default stage + default region).
 #    The CLI automatically opens your default browser to complete login.
 harbor auth login
